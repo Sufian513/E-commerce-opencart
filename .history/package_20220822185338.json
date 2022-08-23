@@ -1,0 +1,17 @@
+{
+  "name": "opencart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "signup": "npx playwright test opencart.spec.js --grep @signup",
+    "login": "npx playwright test opencart.spec.js --grep @login",
+    "demo_opencart_login":"npx playwright test opencart.spec.js --grep @demo_opencart_login"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.25.0"
+  }
+}

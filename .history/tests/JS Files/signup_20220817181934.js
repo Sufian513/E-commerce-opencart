@@ -1,0 +1,1 @@
+exports.Signups = class signup

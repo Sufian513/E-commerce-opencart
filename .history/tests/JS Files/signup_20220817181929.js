@@ -1,0 +1,1 @@
+exports.Signup = class sign
